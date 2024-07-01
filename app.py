@@ -1,4 +1,7 @@
-
+import pathlib
+import os
+from mutagen.easyid3 import EasyID3
+ 
 class App:
   
   def __init__(self):
@@ -28,6 +31,6 @@ class App:
       Returns:
         boolean: if there is no error, it returns true
     """
-    audio = EasyID3(file)
+    audio = EasyID3(pathfile)
     audio["tracknumber"] = tracknumber
     audio.save()
