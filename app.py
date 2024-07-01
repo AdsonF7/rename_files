@@ -2,7 +2,8 @@
 class App:
   
   def __init__(self):
-
+    pass
+    
   def rename_file(self, old_path, new_name):
     """
       method used to rename file
