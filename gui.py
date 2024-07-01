@@ -1,11 +1,26 @@
+"""
+Module for manipulating the application's graphical interface
+
+Este módulo contém uma classe que representa um cachorro com atributos básicos
+como nome e idade, e métodos para fazer o cachorro latir.
+
+Author: Adson Felipe
+Date: 2024-07-01
+"""
+
 import os
 import glob
 import pathlib
 from tkinter import Tk, Text, Button, Entry, Label, StringVar, END, DISABLED, NORMAL, Frame, NSEW
 from mutagen.easyid3 import EasyID3
+
+
 class GUI(Tk):
 
   def __init__(self):
+    """
+      Application graphical interface class
+    """
     super().__init__()
     self.sv_folder = StringVar(self)
     self.sv_extension = StringVar(self)
