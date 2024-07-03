@@ -90,7 +90,7 @@ class GUI(Tk):
       path = pathlib.PurePath(file)
       old_tracknumber = self.get_tracknumber(file)
       new_tracknumber = path.stem[:2]
-      new_filename = "flaviojose-" + path.stem[5:].lower().replace(" ", "_")
+      new_filename = "artist-" + path.stem[5:].lower().replace(" ", "_")
       
       self.tx_source.insert(END, path.stem)
       self.tx_source.insert(END, "\n")
