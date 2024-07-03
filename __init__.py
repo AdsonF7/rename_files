@@ -1,6 +1,7 @@
-from gui import GUI
+from app import App
 
-def __init__(self):
-  gui = GUI()
-  
-  
+def main(self):
+  app = App()
+
+if __name__ == "__main__":
+  main()
