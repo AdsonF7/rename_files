@@ -1,9 +1,6 @@
 """
 Module for manipulating the application's graphical interface
 
-Este módulo contém uma classe que representa um cachorro com atributos básicos
-como nome e idade, e métodos para fazer o cachorro latir.
-
 Author: Adson Felipe
 Date: 2024-07-01
 """
